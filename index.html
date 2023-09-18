@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Seller Admin Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Seller Admin Page</h1>
+
+    <h2>Add Product</h2>
+    <label for="productName">Product Name:</label>
+    <input type="text" id="productName">
+    <label for="sellingPrice">Selling Price (INR):</label>
+    <input type="number" id="sellingPrice">
+    <button onclick="addProduct()">Add Product</button><br>
+
+    <h2>Products</h2>
+    <ul id="productList"></ul>
+
+    <h2>Total Value Worth of Products</h2>
+    <p id="totalValue">Total: ₹0.00</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
